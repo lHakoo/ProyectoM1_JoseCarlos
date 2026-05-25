@@ -83,7 +83,7 @@ function renderizarPaleta() {
         const infoColor = document.createElement('div');
         infoColor.classList.add('info-color');
 
-        // Botón interactivo para el código HEX (Obligatorio por tu requerimiento)
+        // Botón interactivo para el código HEX 
         const btnHex = document.createElement('button');
         btnHex.classList.add('btn-copiar');
         btnHex.textContent = hex;
