@@ -18,6 +18,24 @@ Esta herramienta permite visualizar paletas de colores de forma rápida y eficie
     *   Soporte de navegación por teclado mediante `:focus-visible`.
 *   **Microfeedback:** Sistema de *Toast* notificaciones autogestionadas.
 
+## 🔒 Bloqueo de colores
+* Al hacer clic sobre el bloque de color de una tarjeta, ese color queda fijado:
+
+* El borde naranja indica que está bloqueado.
+* Al pulsar Generar, solo se regeneran los colores desbloqueados.
+* Clic de nuevo sobre el bloque para desbloquear.
+
+* Esto permite construir paletas de forma incremental, manteniendo los colores que ya gustan.
+
+## 💾 Paletas guardadas
+* Al pulsar Guardar, la paleta actual se almacena en localStorage con fecha y hora. Las paletas guardadas aparecen en la sección inferior con:
+
+* Chips de color clicables para copiar el HEX de cada tono.
+* Botón Eliminar por paleta individual.
+* Limpiar todo para vaciar el historial completo.
+
+* Los datos persisten entre sesiones sin necesidad de cuenta ni servidor.
+
 ## 💻 Ejecución Local
 1. Asegúrate de tener instalado un navegador moderno.
 2. Clona el repositorio:
